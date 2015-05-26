@@ -1,3 +1,13 @@
+# Automated 3D Geometric Morphometrics
+
+# Overview
+
+Software that allows for comparative analysis of 3D digital models representing bones. Unlike other three-dimensional geometric morphometric (3DGM) methods this software uses a fully automated procedure for placing landmarks on the bones. This allows for the alignment of bones followed by measuring distance between bones with minimal user intervention.
+
+The method itself is explained in the PhD thesis of Jesus Puente. The utility of the auto3dgm methods was illustrated in (Boyer et al., Anatomical Record).
+
+In the example provided the input is a set of teeth and the outputs are the aligned teeth, a minimum spanning tree of the teeth, and alignment files.
+
 ## 1. Introduction
 
 This is an R implementation of the automated three-dimensional geometric morphometric methods developed in the PhD thesis of [Jesus Puente][]. The utility of the auto3dgm methods was illustrated in [(Boyer et al., Anatomical Record)][] and the R code was written by Chris Glynn.
@@ -32,7 +42,7 @@ where YOUR\_DIR is the path to the directory you want the outputs of the program
 
 When you source/run Web\_example.R you will get the following outputs in the Output\_dir you specify:
  
-#[Aligned\_Shapes][]: the aligned meshes of the five teeth, for example the [second tooth][]
+- [Aligned\_Shapes][]: the aligned meshes of the five teeth, for example the [second tooth][]
 
 - [MST.jpg][]: the jpg image of the minimum spanning tree of the five teeth
 
