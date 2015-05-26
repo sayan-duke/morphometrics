@@ -19,37 +19,47 @@ Install Matrix, clue, linprog, igraph, MASS, and auto3dgm.tar.gz
 Download the following R code: [Web\_Example.R][]
 
 Edit the following line in Web\_Example.R
- Output\_dir = “/Users/sayanm/Desktop/Bones”
- to
- Output\_dir = “YOUR\_DIR”
- where YOUR\_DIR is the path to the directory you want the outputs of the program to be written.
+
+Output\_dir = “/Users/sayanm/Desktop/Bones”
+
+to
+
+Output\_dir = “YOUR\_DIR”
+
+where YOUR\_DIR is the path to the directory you want the outputs of the program to be written.
 
 ## Outputs
 
 When you source/run Web\_example.R you will get the following outputs in the Output\_dir you specify:
- [Aligned\_Shapes][]: the aligned meshes of the five teeth, for example the [second tooth][]
+ 
+#[Aligned\_Shapes][]: the aligned meshes of the five teeth, for example the [second tooth][]
 
- [MST.jpg][]: the jpg image of the minimum spanning tree of the five teeth
+- [MST.jpg][]: the jpg image of the minimum spanning tree of the five teeth
 
- [alignment.off][]: the mesh file of the five aligned teeth of the lower resolution images, in this case 64 points. There is a marker to designate the first shape and there are ten shapes to a row, see [Figure 1][].The shapes are ordered according to the sequence of shape ids specified in Web\_example.R
+- [alignment.off][]: the mesh file of the five aligned teeth of the lower resolution images, in this case 64 points. There is a marker to designate the first shape and there are ten shapes to a row, see [Figure 1][].The shapes are ordered according to the sequence of shape ids specified in Web\_example.R
 
- [alignment\_2.off][]: the mesh file of the five aligned teeth of the higher resolution in this case 128 points. There is a marker to designate the first shape and there are ten shapes to a row, see [Figure 2][].The shapes are ordered according to the sequence of shape ids specified in Web\_example.R
+- [alignment\_2.off][]: the mesh file of the five aligned teeth of the higher resolution in this case 128 points. There is a marker to designate the first shape and there are ten shapes to a row, see [Figure 2][].The shapes are ordered according to the sequence of shape ids specified in Web\_example.R
 
- [map.off][]: a 3-dimensional representation of the minimum spanning tree, [Figure 3][]
+- [map.off][]: a 3-dimensional representation of the minimum spanning tree, [Figure 3][]
 
- [morphologika.txt][]: a [morphologika][] file for the lower sampling resolution
+- [morphologika.txt][]: a [morphologika][] file for the lower sampling resolution
 
- [morphologika\_2.txt][]: a [morphologika][] file for higher sampling resolution
- [morphologika\_unscaled.txt][]: an unscaled [morphologika][] file for the lower sampling resolution
- [morphologika\_2\_unscaled.txt][]: an unscaled [morphologika][] file for higher sampling resolution
+- [morphologika\_2.txt][]: a [morphologika][] file for higher sampling resolution
+
+- [morphologika\_unscaled.txt][]: an unscaled [morphologika][] file for the lower sampling resolution
+
+- [morphologika\_2\_unscaled.txt][]: an unscaled [morphologika][] file for higher sampling resolution
 
 
 ## Inputs
 
-The data used in this example consist of
- [001.off,…,015.off][]: fifteen teeth that are not aligned,an example [tooth][]
- [lowres][]: a directory of low resolution files for the fifteen teeth
- [subsampled][]: a directory of subsampled files for the fifteen teeth
+The data used in this example consist of:
+
+- [001.off,…,015.off][]: fifteen teeth that are not aligned,an example [tooth][]
+
+- [lowres][]: a directory of low resolution files for the fifteen teeth
+
+- [subsampled][]: a directory of subsampled files for the fifteen teeth
 
 
   [Jesus Puente]: http://arks.princeton.edu/ark:/88435/dsp01sq87bt73n
